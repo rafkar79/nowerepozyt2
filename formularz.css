@@ -1,0 +1,80 @@
+.formularz {
+        width:370px; 
+        background-color:#fff; 
+        border:2px solid #ccc; 
+        border-radius:10px; 
+	padding:20px; 
+        text-align: right;
+        float: left;
+        margin-right: 30px;
+       
+}
+
+.formularz1 {
+        width:270px; 
+        background-color:#fff; 
+        border:2px solid #ccc; 
+        border-radius:10px; 
+	padding:20px; 
+        text-align: right;
+        float: left;
+        margin-right: 30px;
+        height: 340px;
+        padding-top: 40px;
+}
+
+
+
+.formularz label {
+    
+    font-weight:bold; 
+    text-transform: uppercase; 
+    font-size:15px; 
+    color:#555555; 
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.formularz input#submit {
+	width:370px; 
+	cursor:pointer; 
+	margin-bottom:0px;
+        height: 40px;
+        margin-top: 25px;
+        font-weight:bold;
+        text-transform: uppercase;
+}
+.formularz1 input#submit1{
+        width:270px; 
+	cursor:pointer; 
+	margin-bottom:0px;
+        height: 40px;
+        margin-top: 25px;
+        font-weight:bold;
+        text-transform: uppercase;
+        
+}
+
+.formularz input.text{
+    width:185px;
+    font-size: 15px;
+    height: 20px;
+    border-radius:3px;
+    margin-top: 10px;
+    border:2px solid #ccc;
+    font-style: italic;
+    padding: 4px 15px;
+    color:  #555555;
+}
+
+.formularz select{
+    width:215px;
+    font-size: 15px;
+    height: 30px;
+    border-radius:3px;
+    margin-top: 10px;
+    border:2px solid #ccc;
+    font-style: italic;
+    padding: 4px 15px;
+    color:  #555555;
+}

@@ -1,0 +1,132 @@
+body
+{
+    background-color: #ffffff;
+    color: #303030;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.naglowek
+{
+    width: 100%;
+    padding: 15px 0;
+}
+.logo
+{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu
+{
+    background-color: #3366ff;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+ }
+ol
+{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    list-style-type: none;
+    display: inline-block;
+    line-height: 200%;
+}
+
+ol a
+{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    
+}
+ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+   
+}
+ol > li:hover
+{
+    background-color: #99cc00;
+}
+ol >li>ul
+{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    list-style-type: none;
+    display: none;
+}
+ol >li:hover > ul
+{
+    display: block;
+}
+ol>li>ul>li
+{
+    background-color: #99cc00;
+    position: relative;
+    z-index: 100;
+    width: 150px;
+    height: 40px;
+}
+ol>li>ul>li:hover
+{
+    background-color: #3366ff;
+}
+
+.content
+{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+    height: 590px;
+    
+   
+}
+
+
+.stopka
+{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #3366ff; 
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+
+
+.tytul
+{
+     padding-left: 50px;
+     font-size: 30px;
+     width: 1000px;
+     margin-top: 50px;
+        
+}
+
+
+
+
+.lista
+{
+    margin-top: 50px;
+    text-align: left;
+    
+    
+}
+ 
+.naglowek2{
+     width: 1000px;
+     height: 100px;
+}
+ 
+ 
